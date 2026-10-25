@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes Agent — Personal Assistant</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem;
+         font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", Roboto, sans-serif;
+         color: #1a1a1a; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e6e6e6; background: #16181c; } a { color: #7fb2ff; } }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.05rem; margin-top: 2rem; }
+  .sub { opacity: .7; margin-top: 0; }
+  ul { padding-left: 1.2rem; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid rgba(128,128,128,.35); font-size: .9rem; opacity: .8; }
+</style>
+</head>
+<body>
+<h1>Hermes Agent</h1>
+<p class="sub">A personal, self-hosted AI assistant — single-user application</p>
+
+<p>Hermes Agent is a private automation assistant operated by one individual for their own
+use. It connects to the operator's own Google account with explicit OAuth consent in order to
+produce a daily calendar and email briefing, and to send messages the operator writes.</p>
+
+<h2>What it does with Google data</h2>
+<ul>
+  <li><strong>Google Calendar</strong> — reads events across the operator's calendars to build a morning briefing.</li>
+  <li><strong>Gmail</strong> — reads recent messages to flag anything urgent, and sends email only when the
+      operator explicitly asks it to.</li>
+  <li><strong>Google Drive, Sheets, Docs, Contacts</strong> — accessed only on direct request from the operator.</li>
+</ul>
+
+<h2>Who can use it</h2>
+<p>The application is not offered to the public. There is no sign-up, no multi-tenant hosting, and no
+third-party end users. The only person whose data is accessed is the operator who granted access.</p>
+
+<h2>Policies</h2>
+<ul>
+  <li><a href="./privacy.html">Privacy Policy</a></li>
+  <li><a href="./terms.html">Terms of Service</a></li>
+</ul>
+
+<h2>Contact</h2>
+<p>Email: <a href="mailto:vidkid.indy@gmail.com">vidkid.indy@gmail.com</a></p>
+
+<footer>
+  Last updated: 26 October 2026 · Hermes Agent is a personal project and is not affiliated with Google LLC.
+</footer>
+</body>
+</html>
